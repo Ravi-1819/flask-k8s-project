@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: flask-k8s:v1
+        image: flask-k8s:v2
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
